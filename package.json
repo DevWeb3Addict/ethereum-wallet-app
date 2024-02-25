@@ -1,0 +1,23 @@
+{
+  "name": "ethereum-wallet-app",
+  "version": "1.0.0",
+  "description": "A simple Ethereum wallet application using ethereum-wallet-interactor for basic wallet operations.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ethereum",
+    "wallet",
+    "blockchain",
+    "cryptocurrency"
+  ],
+  "license": "ISC",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethereum-wallet-interactor": "^1.0.0",
+    "web3": "^4.5.0"
+  }
+}
